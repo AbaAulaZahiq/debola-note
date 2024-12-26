@@ -3,7 +3,7 @@
 </script>
 <template>
     <footer>
-        <p align="center">copyright aba aula 2024</p>
+        <p align="center">copyright Debola Market 2024</p>
         <button type="button" class="btn w-100" data-bs-toggle="modal" data-bs-target="#modal-other-apps">Lihat aplikasi kami yang lainnya</button>
     </footer>
 </template>
