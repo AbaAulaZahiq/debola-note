@@ -14,7 +14,7 @@
 <template>    
     <div>
         <h1 class="subtitle">Notes</h1>
-        <div class="container">
+        <div class="container-debola">
             <CardComponent v-for="note in notes" :data="note" :class="getBackgroundCard()" />
             <AddCardComponent/>
         </div>
@@ -26,7 +26,7 @@
         font-weight: 500;
         font-size: 50px
    }
-   .container{
+   .container-debola{
         margin-top: 30px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -35,19 +35,19 @@
 
    
    @media only screen and (max-width : 800px){
-        .container{
+        .container-debola{
             grid-template-columns: repeat(3, 1fr);
         }
    }
 
    @media only screen and (max-width : 700px){
-        .container{
+        .container-debola{
             grid-template-columns: repeat(2, 1fr);
         }
    }
    
    @media only screen and (max-width : 500px){
-        .container{
+        .container-debola{
             grid-template-columns: repeat(1, 1fr);
         }
    }

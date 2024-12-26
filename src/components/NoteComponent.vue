@@ -48,9 +48,9 @@
     <div>
         <textarea @input="adjustHeight1" ref="textarea1" placeholder="Musik Penenang Jiwa"></textarea>
         <textarea @input="adjustHeight2" ref="textarea2" placeholder="Yang kusukai dari musik ialah mampu menenangkan pikiran yang bertengkar..."></textarea>
-        <div class="btn-group">
+        <div class="btn-group-debola">
             <router-link to="/" class="btn" id="back-btn">Kembali</router-link>
-            <div class="btn-group">
+            <div class="btn-group-debola">
                 <button type="button" class="btn btn-debola" id="delete-btn" v-if="id != 'add'" @click="deleteNote(id)">Hapus</button>
                 <button type="button" class="btn btn-debola" id="save-btn" @click="saveNote(id)">Simpan</button>
             </div>
@@ -79,7 +79,7 @@
     textarea:focus{
         outline: 1px solid black;
     }
-    .btn-group{
+    .btn-group-debola{
         display: flex;
         justify-content: space-between;
         gap: 10px;
@@ -104,7 +104,7 @@
     }
 
     @media only screen and (max-width: 500px){
-        .btn-group{gap: 5px;}
+        .btn-group-debola{gap: 5px;}
         .btn{padding: 10px 20px;}
     }
 </style>

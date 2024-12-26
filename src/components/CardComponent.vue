@@ -29,7 +29,7 @@
     .card-note h5{
         font-size: 19px;
         font-weight: 600;
-        max-height: 55px;
+        max-height: 40px;
         overflow: hidden;
         margin-bottom: 10px;
     }
