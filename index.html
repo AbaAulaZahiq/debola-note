@@ -2,12 +2,52 @@
 <html lang="">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <title>Debola Note - Aplikasi Catatan Sederhana</title>
+
+    <meta name="description" content="Debola Note adalah aplikasi catatan ( notepad ) sederhana yang dikembangkan dengan framework vue 3">
+    <meta name="keywords" content="catatan, aplikasi catatan, debola, notepad">
+    <meta name="author" content="Debola Note">
+
+    <!-- Favicon -->
+    <link rel="icon" href="public/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="public/logo.png">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Debola Note - Aplikasi catatan sederhana">
+    <meta property="og:description" content="Debola Note adalah aplikasi catatan sederhana.">
+    <meta property="og:url" content="https://debola-note.vercel.app">
+    <meta property="og:image" content="img/debola-frame.png">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Debola Note - Aplikasi catatan sederhana">
+    <meta name="twitter:description" content="Debola Note adalah aplikasi catatan sederhana.">
+    <meta name="twitter:image" content="img/debola-frame.png">
+
+    <!-- Structured Data (Schema Markup) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Debola Note - Aplikasi catatan sederhana",
+        "description": "Debola Note adalah aplikasi catatan sederhana",
+        "url": "https://debola-note.vercel.app",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Debola PPDB",
+          "url": "https://debola-note.vercel.app"
+        }
+      }
+    </script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="public/bootstrap-5.2/css/bootstrap.min.css">
   </head>
   <body>
     <div id="app"></div>
+    <script src="public/bootstrap-5.2/js/bootstrap.min.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

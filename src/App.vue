@@ -2,6 +2,7 @@
 import { useRouter, RouterView } from 'vue-router'
 import { reactive, render } from 'vue'
 import HeaderComponent from './components/HeaderComponent.vue'
+import ModalComponent from './components/ModalComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
 import router from './router';
 
@@ -94,6 +95,7 @@ function deleteNote(id) {
   <!--:key="$route.fullPath" digunakan untuk merender ulang komponen beserta parameter di url-->
   <RouterView :key="$route.fullPath" :notes="notes" :deleteNote="deleteNote" :saveNote="saveNote" />
   <FooterComponent/>
+  <ModalComponent/>
 </template>
 
 <style scoped>

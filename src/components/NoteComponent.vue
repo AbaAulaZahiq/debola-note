@@ -51,8 +51,8 @@
         <div class="btn-group">
             <router-link to="/" class="btn" id="back-btn">Kembali</router-link>
             <div class="btn-group">
-                <button type="button" class="btn" id="delete-btn" v-if="id != 'add'" @click="deleteNote(id)">Hapus</button>
-                <button type="button" class="btn" id="save-btn" @click="saveNote(id)">Simpan</button>
+                <button type="button" class="btn btn-debola" id="delete-btn" v-if="id != 'add'" @click="deleteNote(id)">Hapus</button>
+                <button type="button" class="btn btn-debola" id="save-btn" @click="saveNote(id)">Simpan</button>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@
         justify-content: space-between;
         gap: 10px;
     }
-    .btn{
+    .btn-debola{
         color: white;
         padding: 10px 30px;
         cursor: pointer;

@@ -4,6 +4,7 @@
 <template>
     <footer>
         <p align="center">copyright aba aula 2024</p>
+        <button type="button" class="btn m-auto" data-bs-toggle="modal" data-bs-target="#modal-other-apps">Lihat aplikasi kami yang lainnya</button>
     </footer>
 </template>
 
@@ -15,6 +16,10 @@
         padding: 20px;
     }
     footer p{
-        color: #aeaeae
+        color: #aeaeae;
+        margin: 0; padding: 0;
+    }
+    footer button{
+        color: #aeaeae !important;
     }
 </style>
