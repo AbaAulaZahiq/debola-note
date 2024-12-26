@@ -7,7 +7,12 @@
   padding: 10px;
   padding-bottom: 100px;
   font-family: sans-serif;
+<<<<<<< HEAD
   background-color: white;
+=======
+  background: white;
+  color: #181818;
+>>>>>>> 1c50211c404e7818e5e38989da41eaa67682c5d9
 }
 
 .bg-red{
